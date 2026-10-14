@@ -1,0 +1,501 @@
+{
+  "profile": {
+    "name": "Eugene Owino",
+    "title": "Staff Software Engineer",
+    "focus": [
+      "AI Evaluation",
+      "Fintech Systems"
+    ],
+    "location": "Toronto, ON, Canada",
+    "yearsExperience": "7+",
+    "summary": "Staff software engineer with 7+ years of experience building fintech platforms and AI evaluation systems for regulated financial services. Leads a team of 8 engineers building a production LLM/RAG evaluation platform supporting KYC, AML, fraud, and compliance workflows, with CI/CD quality gates that cut post-deployment AI incidents by 35%. Part-time PhD in Computer Science (University of Waterloo) focused on reliable evaluation of foundation models in finance. Builds in Python, Go, Java, TypeScript, and SQL on AWS, GCP, and Azure.",
+    "dissertation": "Reliable Evaluation of Foundation Models in Regulated Financial Systems",
+    "spotlightSlug": "fineval-bench",
+    "images": {
+      "hero": "/images/site/hero-code.webp",
+      "about": "/images/site/toronto-skyline.webp",
+      "cta": "/images/site/toronto-night.webp",
+      "quote": "/images/site/library-glass.webp"
+    }
+  },
+  "categories": [
+    {
+      "id": 1,
+      "slug": "industry",
+      "label": "Industry"
+    },
+    {
+      "id": 2,
+      "slug": "research",
+      "label": "Research"
+    },
+    {
+      "id": 3,
+      "slug": "projects",
+      "label": "Projects"
+    },
+    {
+      "id": 4,
+      "slug": "contract",
+      "label": "Contract"
+    }
+  ],
+  "work": [
+    {
+      "slug": "northwind-staff-engineer",
+      "title": "Staff Software Engineer, AI Evaluation & Fintech Platforms",
+      "organization": "Northwind Financial Technologies",
+      "location": "Toronto, ON",
+      "start": "2024-02",
+      "end": null,
+      "category": "industry",
+      "icon": "layer-group",
+      "summary": "Leads a team of 8 engineers building a production AI evaluation platform for LLM and RAG systems in regulated financial workflows.",
+      "highlights": [
+        "Lead a team of 8 engineers building a production AI evaluation platform for LLM and RAG systems used in KYC document review, AML case summarization, fraud operations, payment support, and compliance Q&A.",
+        "Reduced post-deployment AI incidents by 35% by adding CI/CD quality gates (GitHub Actions, Docker, Kubernetes, Terraform) that automatically block unsafe model and prompt changes.",
+        "Increased answer faithfulness by 34% by rebuilding retrieval over regulatory policies, fraud playbooks, and support documents using embeddings, reranking, metadata filtering, and citation tracking.",
+        "Architected automated evaluation pipelines (Python, FastAPI, Pytest, MLflow) with statistical significance testing to regression-test every prompt version, retrieval configuration, model checkpoint, and safety policy.",
+        "Engineered Go services that ingest and score thousands of evaluation events per minute, integrated with core Java and SQL fintech systems.",
+        "Deployed PII redaction, prompt-injection classification, policy-violation monitoring, and audit logging, and delivered TypeScript/React review dashboards for risk and compliance teams.",
+        "Translated regulatory requirements into measurable evaluation criteria with product, risk, compliance, and data science teams; mentored engineers on evaluation-driven development."
+      ],
+      "tech": [
+        "Python",
+        "Go",
+        "Java",
+        "TypeScript",
+        "SQL",
+        "FastAPI",
+        "LangChain",
+        "Kafka",
+        "AWS",
+        "Kubernetes",
+        "Terraform",
+        "MLflow"
+      ],
+      "featured": true,
+      "featuredOrder": 1,
+      "image": "/images/site/work-datacenter.webp"
+    },
+    {
+      "slug": "fineval-bench",
+      "title": "FinEval-Bench: Financial AI Evaluation Benchmark",
+      "organization": "University of Waterloo & Northwind Financial Technologies",
+      "location": null,
+      "start": null,
+      "end": null,
+      "category": "projects",
+      "icon": "chart-column",
+      "summary": "A modular benchmark evaluating LLM and RAG systems on financial reasoning, compliance Q&A, transaction explanation, adversarial robustness, and calibration.",
+      "highlights": [
+        "Designed a modular benchmark evaluating LLM and RAG systems on financial reasoning, compliance Q&A, transaction explanation, adversarial robustness, and calibration.",
+        "Built dataset versioning, evaluation harnesses, and leaderboard automation to compare models on accuracy, safety, latency, cost, and explainability."
+      ],
+      "tech": [
+        "LLM evaluation",
+        "RAG",
+        "Benchmark design",
+        "Dataset versioning",
+        "Leaderboards"
+      ],
+      "featured": true,
+      "featuredOrder": 2,
+      "image": "/images/site/work-chart.webp"
+    },
+    {
+      "slug": "meridian-ai-evaluation",
+      "title": "Senior AI Model Evaluation Engineer",
+      "organization": "Meridian Payments",
+      "location": "Toronto, ON",
+      "start": "2022-01",
+      "end": "2024-01",
+      "category": "industry",
+      "icon": "scale-balanced",
+      "summary": "Built judge calibration, adversarial testing, and benchmark suites for AI systems in payments and fraud operations.",
+      "highlights": [
+        "Improved LLM-judge agreement with human analysts on high-risk case categorization by 28% by building judge calibration pipelines.",
+        "Found and mitigated 15 high-severity issues before launch through adversarial testing for prompt injection, data leakage, policy bypass, and unsafe financial advice.",
+        "Cut false escalation rates by 22% by evaluating model outputs against known fraud typologies, payment policies, and support workflows.",
+        "Developed benchmark suites and golden datasets measuring accuracy, calibration, robustness, explainability, and policy compliance, integrated with real-time fraud systems via Java microservices and Kafka.",
+        "Launched a TypeScript/React fraud-explanation quality dashboard combining analyst feedback, case outcomes, drift metrics, and searchable audit logs for compliance review.",
+        "Automated CI regression testing for prompt, retrieval, and model upgrades; authored model cards and risk reports for compliance and executive stakeholders."
+      ],
+      "tech": [
+        "Python",
+        "Java",
+        "TypeScript",
+        "SQL",
+        "PyTorch",
+        "Hugging Face",
+        "LangChain",
+        "Kafka",
+        "PostgreSQL",
+        "MLflow"
+      ],
+      "featured": true,
+      "featuredOrder": 3,
+      "image": "/images/site/work-payment-terminal.webp"
+    },
+    {
+      "slug": "ai-model-evaluation-specialist",
+      "title": "AI Model Evaluation Specialist (Part-time Contract)",
+      "organization": "TELUS Digital, Alignerr, Outlier, Handshake AI",
+      "location": "Remote",
+      "start": "2024-10",
+      "end": null,
+      "category": "contract",
+      "icon": "list-check",
+      "summary": "Evaluates and ranks LLM responses against detailed client rubrics, producing RLHF preference data and adversarial prompts.",
+      "highlights": [
+        "Evaluate LLM responses for accuracy, reasoning quality, instruction following, safety, and helpfulness against detailed client rubrics, with written rationales for each rating.",
+        "Rank model outputs to produce RLHF preference data, and write adversarial prompts to expose hallucinations, reasoning failures, and policy violations.",
+        "Review model-generated Python and SQL code and technical explanations for correctness and quality."
+      ],
+      "tech": [
+        "LLM evaluation platforms",
+        "Rubric-based scoring tools",
+        "Python",
+        "SQL"
+      ],
+      "featured": true,
+      "featuredOrder": 4,
+      "image": "/images/site/work-laptop-code.webp"
+    },
+    {
+      "slug": "uoft-graduate-research",
+      "title": "Graduate Research Assistant, Machine Learning for Financial Systems",
+      "organization": "University of Toronto",
+      "location": "Toronto, ON",
+      "start": "2020-09",
+      "end": "2021-12",
+      "category": "research",
+      "icon": "flask",
+      "summary": "Built evaluation pipelines and performance-critical components for fraud-detection and financial-risk model research.",
+      "highlights": [
+        "Built Python pipelines for evaluating fraud-detection and financial-risk models, covering feature engineering, benchmarking, statistical testing, and reproducibility.",
+        "Wrote performance-critical C++ components for processing large transaction datasets in low-latency experiments.",
+        "Designed SQL extraction and validation pipelines that improved dataset consistency and experiment readiness."
+      ],
+      "tech": [
+        "Python",
+        "C++",
+        "SQL",
+        "PyTorch",
+        "scikit-learn",
+        "pandas"
+      ],
+      "featured": true,
+      "featuredOrder": 5,
+      "image": "/images/site/work-library.webp"
+    },
+    {
+      "slug": "lumen-ledger-payments",
+      "title": "Software Engineer, Payments & ML Infrastructure",
+      "organization": "Lumen Ledger Labs",
+      "location": "Toronto, ON",
+      "start": "2019-01",
+      "end": "2020-08",
+      "category": "industry",
+      "icon": "money-bill-transfer",
+      "summary": "Built payment services, model-serving pipelines, and an AI audit trail across ledgers, transactions, and risk scoring.",
+      "highlights": [
+        "Developed core Java/Spring Boot payment services connecting ledgers, transaction APIs, and analytics for authorization, reconciliation, and risk scoring.",
+        "Built Python model-serving and feature pipelines that deployed fraud and risk models into live payment workflows.",
+        "Created an AI audit trail tracing model-assisted reconciliation decisions back to source transactions, features, and analyst actions.",
+        "Designed SQL data models and reporting for reconciliation and audit, and shipped TypeScript operator dashboards for payment failures and case queues."
+      ],
+      "tech": [
+        "Java",
+        "Spring Boot",
+        "Python",
+        "TypeScript",
+        "SQL",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "featured": true,
+      "featuredOrder": 6,
+      "image": "/images/site/work-coins.webp"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Northwind Financial Technologies",
+      "note": "Toronto"
+    },
+    {
+      "name": "Meridian Payments",
+      "note": "Toronto"
+    },
+    {
+      "name": "Lumen Ledger Labs",
+      "note": "Toronto"
+    },
+    {
+      "name": "University of Waterloo",
+      "note": "PhD research"
+    },
+    {
+      "name": "University of Toronto",
+      "note": "Research"
+    }
+  ],
+  "impact": [
+    {
+      "value": "35%",
+      "label": "fewer post-deployment AI incidents",
+      "source": "Northwind Financial Technologies"
+    },
+    {
+      "value": "34%",
+      "label": "higher answer faithfulness",
+      "source": "Northwind Financial Technologies"
+    },
+    {
+      "value": "28%",
+      "label": "better LLM-judge agreement with analysts",
+      "source": "Meridian Payments"
+    },
+    {
+      "value": "15",
+      "label": "high-severity issues caught before launch",
+      "source": "Meridian Payments"
+    }
+  ],
+  "expertise": [
+    {
+      "id": 1,
+      "slug": "ai-evaluation-platforms",
+      "title": "AI Evaluation Platforms",
+      "icon": "layer-group",
+      "description": "Production platforms that evaluate LLM and RAG systems in regulated financial workflows. CI/CD quality gates that automatically block unsafe model and prompt changes.",
+      "tags": [
+        "CI/CD quality gates",
+        "Regression testing",
+        "Statistical significance testing",
+        "MLflow"
+      ],
+      "image": "/images/site/exp-servers.webp"
+    },
+    {
+      "id": 2,
+      "slug": "llm-rag-evaluation",
+      "title": "LLM & RAG Evaluation",
+      "icon": "scale-balanced",
+      "description": "Benchmark design, golden datasets, and rubric-based scoring. LLM-as-judge calibration against human analysts, and retrieval rebuilt for faithfulness with citation tracking.",
+      "tags": [
+        "Benchmark design",
+        "Golden datasets",
+        "LLM-as-judge calibration",
+        "Hallucination detection"
+      ],
+      "image": "/images/site/exp-code.webp"
+    },
+    {
+      "id": 3,
+      "slug": "red-teaming-ai-safety",
+      "title": "Red Teaming & AI Safety",
+      "icon": "shield-halved",
+      "description": "Adversarial testing for prompt injection, data leakage, policy bypass, and unsafe financial advice. PII redaction, prompt-injection classification, and policy-violation monitoring.",
+      "tags": [
+        "Adversarial testing",
+        "Red teaming",
+        "PII redaction",
+        "Audit logging"
+      ],
+      "image": "/images/site/exp-padlocks.webp"
+    },
+    {
+      "id": 4,
+      "slug": "fintech-systems",
+      "title": "Fintech Systems",
+      "icon": "money-bill-transfer",
+      "description": "Payment services, ledger reconciliation, and risk scoring for live transaction workflows. Fraud detection, KYC/AML, regulatory reporting, and audit trails.",
+      "tags": [
+        "Payments",
+        "Fraud detection",
+        "KYC/AML",
+        "Ledger reconciliation"
+      ],
+      "image": "/images/site/exp-chip-cards.webp"
+    },
+    {
+      "id": 5,
+      "slug": "ml-data-infrastructure",
+      "title": "ML & Data Infrastructure",
+      "icon": "server",
+      "description": "Model-serving and feature pipelines, and Go services that ingest and score thousands of evaluation events per minute. Built on AWS, GCP, and Azure with Kubernetes and Terraform.",
+      "tags": [
+        "Kubernetes",
+        "Terraform",
+        "Kafka",
+        "Airflow"
+      ],
+      "image": "/images/site/exp-fiber.webp"
+    },
+    {
+      "id": 6,
+      "slug": "rlhf-human-evaluation",
+      "title": "RLHF & Human Evaluation",
+      "icon": "list-check",
+      "description": "Rubric-based rating of LLM responses for accuracy, reasoning, instruction following, safety, and helpfulness. Preference ranking for RLHF data and human-in-the-loop evaluation.",
+      "tags": [
+        "RLHF preference ranking",
+        "Rubric-based scoring",
+        "Human-in-the-loop evaluation"
+      ],
+      "image": "/images/site/exp-laptop.webp"
+    }
+  ],
+  "skills": [
+    {
+      "group": "Languages",
+      "items": [
+        "Python",
+        "Go",
+        "Java",
+        "TypeScript",
+        "JavaScript",
+        "SQL",
+        "C++",
+        "Bash",
+        "Rust (working proficiency)"
+      ]
+    },
+    {
+      "group": "AI Evaluation",
+      "items": [
+        "LLM and RAG evaluation",
+        "RLHF preference ranking",
+        "Benchmark design",
+        "Golden datasets",
+        "Rubric-based scoring",
+        "LLM-as-judge calibration",
+        "Adversarial testing",
+        "Red teaming",
+        "Hallucination detection",
+        "Drift monitoring",
+        "Statistical significance testing",
+        "Human-in-the-loop evaluation",
+        "Model cards"
+      ]
+    },
+    {
+      "group": "ML and Data",
+      "items": [
+        "PyTorch",
+        "Hugging Face Transformers",
+        "LangChain",
+        "LlamaIndex",
+        "scikit-learn",
+        "pandas",
+        "MLflow",
+        "Weights & Biases",
+        "Ray",
+        "Embeddings",
+        "Vector search",
+        "Airflow",
+        "dbt"
+      ]
+    },
+    {
+      "group": "Fintech Domain",
+      "items": [
+        "Payments",
+        "Transaction monitoring",
+        "Fraud detection",
+        "KYC/AML",
+        "Ledger reconciliation",
+        "Risk scoring",
+        "Regulatory reporting",
+        "Audit trails"
+      ]
+    },
+    {
+      "group": "Infrastructure",
+      "items": [
+        "AWS",
+        "GCP",
+        "Azure",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "GitHub Actions",
+        "Kafka",
+        "PostgreSQL",
+        "Redis",
+        "REST",
+        "gRPC",
+        "Prometheus",
+        "Grafana",
+        "OpenTelemetry"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "PhD, Computer Science (Part-time)",
+      "field": "Machine Learning / Fintech Systems",
+      "school": "University of Waterloo",
+      "location": "Waterloo, ON",
+      "years": "2020 – 2024",
+      "note": "Dissertation: Reliable Evaluation of Foundation Models in Regulated Financial Systems"
+    },
+    {
+      "degree": "MSc, Computer Science",
+      "field": null,
+      "school": "University of Toronto",
+      "location": "Toronto, ON",
+      "years": "2018 – 2020",
+      "note": null
+    },
+    {
+      "degree": "BSc, Computer Science",
+      "field": null,
+      "school": "Stanford University",
+      "location": "Stanford, CA, USA",
+      "years": "2014 – 2018",
+      "note": null
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Databricks Certified Generative AI Engineer Associate",
+      "issuer": "Databricks",
+      "issued": "Jan 2025",
+      "logo": "Databricks"
+    },
+    {
+      "name": "HashiCorp Certified: Terraform Associate",
+      "issuer": "HashiCorp",
+      "issued": "Jul 2024",
+      "logo": "Terraform"
+    },
+    {
+      "name": "Certified Kubernetes Application Developer (CKAD)",
+      "issuer": "The Linux Foundation / CNCF",
+      "issued": "Apr 2024",
+      "logo": "CNCF"
+    },
+    {
+      "name": "AWS Certified Machine Learning – Specialty",
+      "issuer": "Amazon Web Services",
+      "issued": "Mar 2024",
+      "logo": "AWS"
+    },
+    {
+      "name": "Google Cloud Professional Machine Learning Engineer",
+      "issuer": "Google Cloud",
+      "issued": "Feb 2024",
+      "logo": "GCP"
+    },
+    {
+      "name": "Microsoft Certified: Azure AI Engineer Associate",
+      "issuer": "Microsoft",
+      "issued": "Nov 2023",
+      "logo": "Azure"
+    }
+  ],
+  "testimonials": []
+}
